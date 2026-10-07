@@ -12,8 +12,9 @@ public abstract class Funcionario extends Pessoa {
 	// Métodos
 	
 	// Construtor
-	public Funcionario(String nome, String cpf, String telefone, LocalDate dataAdmissao) {
+	public Funcionario(String nome, String cpf, String telefone, String matricula, LocalDate dataAdmissao) {
 		super(nome, cpf, telefone);
+		this.matricula = matricula;
 		this.dataAdmissao = dataAdmissao;
 	}
 
