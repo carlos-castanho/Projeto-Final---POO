@@ -7,8 +7,8 @@ public class Atendente extends Funcionario {
 	// Métodos
 	
 	// Construtor
-	public Atendente(String nome, String cpf, String telefone, LocalDate dataAdmissao) {
-		super(nome, cpf, telefone, dataAdmissao);
+	public Atendente(String nome, String cpf, String telefone, String matricula, LocalDate dataAdmissao) {
+		super(nome, cpf, telefone, matricula, dataAdmissao);
 	}
 
 	// podeDispensarControlado()
