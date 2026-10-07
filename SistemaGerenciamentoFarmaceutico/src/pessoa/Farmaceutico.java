@@ -11,8 +11,8 @@ public class Farmaceutico extends Funcionario {
 	// Métodos
 	
 	// Construtor
-	public Farmaceutico(String nome, String cpf, String telefone, LocalDate dataAdmissao, String crf) {
-		super(nome, cpf, telefone, dataAdmissao);
+	public Farmaceutico(String nome, String cpf, String telefone, String matricula, LocalDate dataAdmissao, String crf) {
+		super(nome, cpf, telefone, matricula, dataAdmissao);
 		
 	}
 	
